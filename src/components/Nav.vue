@@ -1,7 +1,13 @@
 <template>
   <aside class="nav">
     <ul class="nav-list">
-      <li class="nav-item flex-center" v-for="(nav, index) in navList" :key="index" :class="{ active: nav.isActive }" @click="navClick(nav)">
+      <li
+        class="nav-item flex-center"
+        v-for="(nav, index) in navList"
+        :key="index"
+        :class="{ active: nav.isActive }"
+        @click="navClick(nav)"
+      >
         {{ nav.name }}
       </li>
     </ul>
@@ -11,7 +17,7 @@
 <script lang="ts">
 import { defineComponent, reactive, toRefs, onMounted, watch } from 'vue'
 import { useRouter } from 'vue-router'
-import { NavItem } from '../common/types'
+import { NavItem } from '@/common/types'
 
 export default defineComponent({
   name: 'Nav',

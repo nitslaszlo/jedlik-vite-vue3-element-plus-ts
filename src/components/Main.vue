@@ -39,7 +39,7 @@ export default defineComponent({
 $top-height = 60px
 $left-side-width = 80px
 
-.main-container {
+.main-container
   position absolute
   left 0
   right 0
@@ -53,15 +53,14 @@ $left-side-width = 80px
   flex-direction column
   justify-content space-between
 
-  .top {
+  .top
     position relative
     box-sizing border-box
     width 100%
     height $top-height
     margin-bottom 10px
-  }
 
-  .bottom {
+  .bottom
     position relative
     box-sizing border-box
     width 100%
@@ -69,21 +68,20 @@ $left-side-width = 80px
     display flex
     justify-content space-between
 
-    .left {
+    .left
       position relative
       width $left-side-width
       height 100%
       box-sizing border-box
-    }
 
-    .right {
+    .right
       position relative
       width 100%
       height 100%
       box-sizing border-box
       padding 0 10px 10px 10px
 
-      .content {
+      .content
         position relative
         width 100%
         height 100%
@@ -91,15 +89,9 @@ $left-side-width = 80px
         border-radius 5px
         box-sizing border-box
         padding 10px
-      }
-    }
-  }
-}
 
-.page-links {
-  a {
+.page-links
+  a
     font-weight: bold;
     margin: 0 20px;
-  }
-}
 </style>

@@ -1,0 +1,18 @@
+{
+  "vetur.experimental.templateInterpolationService": true,
+  "vetur.validation.template": false,
+  "vetur.format.enable": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "on",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "eslint.alwaysShowStatus": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+}

@@ -46,6 +46,11 @@ export default defineComponent({
           name: 'Test',
           isActive: false,
           path: '/test'
+        },
+        {
+          name: 'El-table',
+          isActive: false,
+          path: '/eltable'
         }
       ],
 

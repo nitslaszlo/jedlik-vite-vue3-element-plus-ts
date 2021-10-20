@@ -18,7 +18,7 @@ export default defineComponent({
   setup() {
     const router = useRouter()
     const goGitHub = () => {
-      window.open('https://github.com/XPoet/vite-vue3-starter')
+      window.open('https://github.com/nitslaszlo/jedlik-vite-vue3-element-plus-ts')
     }
     return {
       router,

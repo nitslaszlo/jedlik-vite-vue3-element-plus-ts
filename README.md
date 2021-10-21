@@ -23,23 +23,22 @@ https://vite-vue3-starter.xpoet.cn/
 1️⃣&nbsp;[掘金](https://juejin.cn/post/6951649464637636622)&emsp;2️⃣&nbsp;[XPoet's Blog](https://xpoet.cn/2021/04/%E4%BB%8E-0-%E5%BC%80%E5%A7%8B%E6%89%8B%E6%8A%8A%E6%89%8B%E5%B8%A6%E4%BD%A0%E6%90%AD%E5%BB%BA%E4%B8%80%E5%A5%97%E8%A7%84%E8%8C%83%E7%9A%84-Vue3.x-%E5%B7%A5%E7%A8%8B%E5%8C%96%E9%A1%B9%E7%9B%AE/)
 
 
-## 技术栈
+## Technology
 
-- 编程语言：[TypeScript 4.x](https://www.typescriptlang.org/zh/) + [JavaScript](https://www.javascript.com/)
-- 构建工具：[Vite 2.x](https://cn.vitejs.dev/)
-- 前端框架：[Vue 3.x](https://v3.cn.vuejs.org/)
-- 路由工具：[Vue Router 4.x](https://next.router.vuejs.org/zh/index.html)
-- 状态管理：[Vuex 4.x](https://next.vuex.vuejs.org/)
-- UI 框架：[Element Plus](https://element-plus.org/#/zh-CN)
-- CSS 预编译：[Stylus](https://stylus-lang.com/) / [Sass](https://sass.bootcss.com/documentation) / [Less](http://lesscss.cn/)
-- HTTP 工具：[Axios](https://axios-http.com/)
-- Git Hook 工具：[husky](https://typicode.github.io/husky/#/) + [lint-staged](https://github.com/okonet/lint-staged)
+- [TypeScript 4.x](https://www.typescriptlang.org/zh/) + [JavaScript](https://www.javascript.com/)
+- [Vite 2.x](https://cn.vitejs.dev/)
+- [Vue 3.x](https://v3.cn.vuejs.org/)
+- [Vue Router 4.x](https://next.router.vuejs.org/zh/index.html)
+- [Vuex 4.x](https://next.vuex.vuejs.org/)
+- [Element Plus](https://element-plus.org/#/zh-CN)
+- [Stylus](https://stylus-lang.com/)
+- [Sass](https://sass.bootcss.com/documentation)
+- [Less](http://lesscss.cn/)
+- [Axios](https://axios-http.com/)
 - 代码规范：[EditorConfig](http://editorconfig.org) + [Prettier](https://prettier.io/) + [ESLint](https://eslint.org/) + [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript#translation)
 - 提交规范：[Commitizen](http://commitizen.github.io/cz-cli/) + [Commitlint](https://commitlint.js.org/#/)
 - 单元测试：[vue-test-utils](https://next.vue-test-utils.vuejs.org/) + [jest](https://jestjs.io/) + [vue-jest](https://github.com/vuejs/vue-jest) + [ts-jest](https://kulshekhar.github.io/ts-jest/)
 - 自动部署：[GitHub Actions](https://docs.github.com/cn/actions/learn-github-actions)
-
-## 快速开始
 
 ### 获取项目
 

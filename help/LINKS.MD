@@ -3,5 +3,4 @@
 https://learnvue.co/2020/12/how-to-use-lifecycle-hooks-in-vue3/
 
 # Building a Vue3 Typescript Environment with Vite
-
 https://miyauchi.dev/posts/vite-vue3-typescript/

@@ -91,29 +91,22 @@ export default defineComponent({
 
 @import "../style/basic.styl"
 
-.nav {
+.nav
   position relative
   width 100%
   height 100%
   box-sizing border-box
   background: #fff
 
-  .nav-list {
+  .nav-list
 
-    .nav-item {
+    .nav-item
       box-sizing border-box
       width 100%
       height 60px
       cursor pointer
 
-      &.active {
+      &.active
         font-weight bold
         background $second-background-color
-      }
-
-    }
-
-  }
-
-}
 </style>

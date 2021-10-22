@@ -1,12 +1,31 @@
 <template>
   <el-table
-    :data="tableData"
-    :default-sort="{ prop: 'date', order: 'descending' }"
+    :data="
+      tableData.filter(
+        (data) => !search || data.name.toLowerCase().includes(search.toLowerCase())
+      )
+    "
     style="width: 100%"
   >
-    <el-table-column prop="date" label="Date" sortable width="180" />
-    <el-table-column prop="name" label="Name" sortable width="180" />
-    <el-table-column prop="address" label="Address" :formatter="formatter" />
+    <el-table-column label="Date" prop="date" />
+    <el-table-column label="Name" prop="name" />
+    <el-table-column label="Address" prop="address" />
+    <el-table-column align="right">
+      <template #header>
+        <el-input v-model="search" size="mini" placeholder="Type to search" />
+      </template>
+      <template #default="scope">
+        <el-button size="mini" @click="handleEdit(scope.$index, scope.row)"
+          >Edit</el-button
+        >
+        <el-button
+          size="mini"
+          type="danger"
+          @click="handleDelete(scope.$index, scope.row)"
+          >Delete</el-button
+        >
+      </template>
+    </el-table-column>
   </el-table>
 </template>
 
@@ -22,25 +41,29 @@ export default {
         },
         {
           date: '2016-05-02',
-          name: 'Jerry',
+          name: 'John',
           address: 'No. 189, Grove St, Los Angeles'
         },
         {
           date: '2016-05-04',
-          name: 'Tom',
+          name: 'Morgan',
           address: 'No. 189, Grove St, Los Angeles'
         },
         {
           date: '2016-05-01',
-          name: 'Tom',
+          name: 'Jessy',
           address: 'No. 189, Grove St, Los Angeles'
         }
-      ]
+      ],
+      search: ''
     }
   },
   methods: {
-    formatter(row: { address: any }) {
-      return row.address
+    handleEdit(index: any, row: any) {
+      console.log(index, row)
+    },
+    handleDelete(index: any, row: any) {
+      console.log(index, row)
     }
   }
 }

@@ -30,7 +30,7 @@ export default defineComponent({
 
 <style scoped lang="stylus">
 
-.header {
+.header
   width 100%
   height 100%
   background #fff
@@ -41,18 +41,14 @@ export default defineComponent({
   box-sizing border-box
   font-weight bold
 
-  .title {
+  .title
     font-size 20px
     cursor pointer
-  }
 
-  .go-github {
+  .go-github
     cursor pointer
     font-size 16px
 
-    .icon {
+    .icon
       font-size 20px
-    }
-  }
-}
 </style>

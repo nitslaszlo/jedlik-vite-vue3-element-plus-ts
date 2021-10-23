@@ -52,7 +52,7 @@ export default defineComponent({
           isActive: false,
           path: '/eltable'
         }
-      ],
+      ] as NavItem[],
 
       navClick(e: NavItem) {
         router.push(e.path)
@@ -69,8 +69,8 @@ export default defineComponent({
 
     watch(
       () => router.currentRoute.value,
-      (_n) => {
-        changeNavActive(_n.path)
+      (n) => {
+        changeNavActive(n.path)
       }
     )
 

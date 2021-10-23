@@ -14,9 +14,7 @@ export default defineComponent({
 </script>
 
 <style scoped lang="stylus">
-.home-container {
-  .vue-element-plus-logo {
+.home-container
+  .vue-element-plus-logo
     width 50%
-  }
-}
 </style>

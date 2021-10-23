@@ -57,37 +57,21 @@ export default defineComponent({
 
 <style scoped lang="stylus">
 
-.axios-container {
-
-  .user-info-container {
+.axios-container
+  .user-info-container
     display flex
     justify-content center
     width 100%
-
-    .info-list-box {
+    .info-list-box
       padding 10px
-
-      .text {
+      .text
         font-size: 14px;
-      }
-
-      .item {
+      .item
         margin-bottom: 18px;
-      }
-
-    }
-
-    .card-header {
+    .card-header
       display: flex;
       justify-content: space-between;
       align-items: center;
-    }
-
-    .box-card {
+    .box-card
       width: 480px;
-    }
-
-  }
-
-}
 </style>
